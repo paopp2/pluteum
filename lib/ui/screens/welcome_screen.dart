@@ -20,3 +20,5 @@ class WelcomeScreen extends StatelessWidget {
     );
   }
 }
+
+//TODO: Implement log in screen, register screen

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pluteum/ui/welcome_screen.dart';
+import 'package:pluteum/ui/screens/home_screen.dart';
+import 'package:pluteum/ui/screens/welcome_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,9 +13,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: WelcomeScreen.id,
+      initialRoute: HomeScreen.id,
       routes: {
         WelcomeScreen.id : (context) => WelcomeScreen(),
+        HomeScreen.id : (context) => HomeScreen(),
       },
     );
   }
